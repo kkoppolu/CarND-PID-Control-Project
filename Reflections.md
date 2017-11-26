@@ -21,7 +21,7 @@ The twiddle methodology was used to fine tune the co-efficients to give the mini
 
 **Effect of individual co-efficients on the control input**
 - As expected, the the integral co-efficient was very low since it only accounts for system bias.
-- The differential component dampens reduces the control input as the error rate decreases there by decreasing oscillations in control input.  
+- The differential component reduces the control input as the error rate decreases there by decreasing oscillations in control input.  
 As expected, it is large so that the car quickly "straight lines" after a steering operation given the short track width. 
 - The propotional component controls the magnitude of the control input given the cross-track error.  
 The propotional component was large enough to handle the track curvature.

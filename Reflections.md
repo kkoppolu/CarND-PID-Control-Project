@@ -19,6 +19,7 @@ Then, a differential component was added to dampen the oscillations.
 **Phase 2: Twiddle**  
 The twiddle methodology was used to fine tune the co-efficients to give the minimum RMSE cross-track error over a set number of timesteps.
 
-As expected, the the integral co-efficient was very low since it only accounts for system bias.
-The differential component is large so that the car quickly "straight lines" after a steering operation given the short track width.
-The propotional component was large enough to handle the track curvature.
+**Effect of individual co-efficients on the control input**
+- As expected, the the integral co-efficient was very low since it only accounts for system bias.
+- The differential component is large so that the car quickly "straight lines" after a steering operation given the short track width.
+- The propotional component was large enough to handle the track curvature.

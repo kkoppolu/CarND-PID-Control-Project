@@ -40,7 +40,7 @@ int main() {
   PID speedPid;
   // TODO: Initialize the pid variable.
   // 0.09, 0, 0.5
-  double p[] = {-0.133155, -0.0000583929, -1.23517};
+  double p[] = {0.133155, 0.0000583929, 1.23517};
   pid.Init(p[0], p[1], p[2]);
   double dp[] = {0.01, 0.0001, 0.1};
   int numSteps = 0;
